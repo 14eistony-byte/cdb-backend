@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080a13">
+  <meta name="description" content="Bewirb dich bei [CDB] Bäumlis und werde Teil unserer Minecraft-Community.">
+  <title>Clan-Bewerbung | CDB Bäumlis</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <div class="nav-wrap"><div class="wrap nav">
+    <a class="brand" href="index.html"><span class="brand-mark">🌳</span><span>CDB BÄUMLIS<small>NEON JUNGLE • CLAN PORTAL</small></span></a>
+    <nav class="links"><a href="index.html">Start</a><a href="spieler.html">Spieler-Lab</a><a href="quests.html">Quests</a><a href="builds.html">Build-Galerie</a><a href="events.html">Events</a><a href="bewerbung.html">Bewerbung</a><a href="regeln.html">Regeln & FAQ</a></nav>
+    <a class="nav-cta" href="https://discord.gg/qdP8jZhjyH" target="_blank" rel="noopener">Discord beitreten ↗</a><button class="menu-btn" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+  </div></div>
+  <main>
+    <section class="wrap page-hero"><div class="eyebrow"><span class="dot"></span> Dein nächstes Kapitel beginnt hier</div><h1>WIR SUCHEN <span class="gradient-text">DICH.</span></h1><p>Erzähl uns, wer du bist und was du bei [CDB] Bäumlis einbringen möchtest. Deine Bewerbung wird direkt an unser Team auf Discord geschickt.</p><div class="microproof"><span>🔒 Sicher mit Discord verbunden</span><span>🌱 In wenigen Minuten erledigt</span><span>🧱 Für Builder, Coder und Mitglieder</span></div></section>
+    <section class="wrap section" id="formular">
+      <div class="section-head"><div><div class="eyebrow">Dein Einstieg in den Clan</div><h2>DEINE <span class="gradient-text">BEWERBUNG.</span></h2></div><p>Melde dich zuerst mit Discord an. Danach kannst du die Fragen beantworten und deine Bewerbung absenden.</p></div>
+      <div class="application-layout">
+        <aside class="card application-side"><div class="iconbox">🌿</div><span class="pill">CDB · BEWERBUNG</span><h3>Werde Teil des Teams</h3><p>Wir freuen uns auf ehrliche Antworten. Es geht nicht um perfekte Texte, sondern darum, dich kennenzulernen.</p><div class="application-user hide" id="application-user"><img class="avatar" id="application-avatar" alt=""><div><strong id="application-name"></strong><div class="small">Mit Discord verbunden</div></div><button class="btn btn-secondary" type="button" id="logout-button">Abmelden</button></div><div class="notice" id="application-status" role="status" aria-live="polite">Verbindung wird geprüft …</div><a class="btn btn-primary application-login hide" id="login-button" href="/auth/discord">Mit Discord anmelden ↗</a><a class="btn btn-secondary application-discord" href="https://discord.gg/qdP8jZhjyH" target="_blank" rel="noopener">Discord-Server öffnen ↗</a></aside>
+        <form class="card application-form hide" id="application-form">
+          <div class="form-title"><div><span class="pill">📝 DAS FORMULAR</span><h3>Erzähl uns von dir.</h3></div><span class="small">* Pflichtfelder</span></div>
+          <label class="form-field"><span class="field-label">Minecraft-Name *</span><input class="input" name="minecraft" required minlength="3" maxlength="16" pattern="[A-Za-z0-9_]{3,16}" placeholder="Dein Java-Spielname"><span class="help">3–16 Zeichen, Buchstaben, Zahlen und Unterstrich.</span></label>
+          <div class="form-grid"><label class="form-field"><span class="field-label">Dein Alter *</span><input class="input" name="age" type="number" min="10" max="99" required placeholder="z. B. 16"></label><label class="form-field"><span class="field-label">Wofür bewirbst du dich? *</span><select class="input" name="category" required><option value="">Bereich auswählen</option><option>Mitglied</option><option>Builder</option><option>Coder</option><option>Supporter</option><option>Anwerber</option><option>Kassenwart</option></select></label></div>
+          <label class="form-field"><span class="field-label">Was sind deine Minecraft-Erfahrungen und Stärken? *</span><textarea class="input" name="experience" required minlength="10" maxlength="1000" rows="4" placeholder="Was spielst oder baust du gern? Was kannst du gut?"></textarea></label>
+          <label class="form-field"><span class="field-label">Warum möchtest du zu [CDB] Bäumlis? *</span><textarea class="input" name="motivation" required minlength="10" maxlength="1000" rows="4" placeholder="Was interessiert dich an unserem Clan?"></textarea></label>
+          <label class="form-field"><span class="field-label">Wann bist du meistens online? *</span><textarea class="input" name="availability" required minlength="3" maxlength="300" rows="2" placeholder="Zum Beispiel abends oder am Wochenende"></textarea></label>
+          <label class="privacy-check"><input type="checkbox" name="privacy" required><span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Bewerbung an das CDB-Team auf Discord übermittelt werden. *</span></label>
+          <button class="btn btn-primary submit-application" type="submit" id="submit-application">Bewerbung sicher absenden <span>↗</span></button><p class="help" id="form-feedback" role="status" aria-live="polite">Deine Antworten werden im privaten Bewerbungs-Kanal des Teams angezeigt.</p>
+        </form>
+      </div>
+    </section>
+    <section class="wrap section"><div class="banner"><div><div class="eyebrow">Noch nicht auf unserem Server?</div><h3 style="font-size:23px;margin:7px 0">KOMM ERST MAL HALLO SAGEN.</h3><p>Lies die Regeln im Discord und akzeptiere sie über unseren Bot, um dich freizuschalten.</p></div><a class="btn btn-primary" href="https://discord.gg/qdP8jZhjyH" target="_blank" rel="noopener">Discord beitreten ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><div><a class="brand" href="index.html"><span class="brand-mark">🌳</span><span>CDB BÄUMLIS<small>BAUEN. SPIELEN. ZUSAMMENHALTEN.</small></span></a><p style="margin:12px 0 0">Ein Community-Portal für den Clan.</p></div><div class="footer-links"><a href="spieler.html">Spieler-Lab</a><a href="quests.html">Quests</a><a href="builds.html">Builds</a><a href="bewerbung.html">Bewerbung</a><a href="regeln.html">Regeln</a><a href="https://discord.gg/qdP8jZhjyH" target="_blank" rel="noopener">Discord ↗</a></div></div><div class="wrap" style="margin-top:24px">© <span id="year"></span> CDB Bäumlis · Fanprojekt, nicht mit Mojang/Microsoft verbunden.</div></footer>
+  <div class="toast" role="status" aria-live="polite"></div><script>document.getElementById('year').textContent=new Date().getFullYear()</script><script src="app.js"></script><script src="application.js"></script><script src="admin.js"></script>
+</body></html>
